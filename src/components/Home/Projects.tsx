@@ -33,7 +33,7 @@ const Projets: React.FC = () => {
                 <div className="row mt-5">
                     {projects.map((project: Project) => (
                         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-2" key={project.id}>
-                            <div className="card d-flex flex-column justify-content-between" style={{ height: "100%" }}>
+                            <div className="card d-flex flex-column justify-content-between shadow-lg mb-5 bg-body-tertiary rounded" style={{ height: "100%" }}>
                                 <img
                                     src={project.image}
                                     className="card-img-top"

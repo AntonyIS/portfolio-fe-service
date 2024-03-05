@@ -1,8 +1,11 @@
 import React from "react"
+import Hero from "../components/Contact/Hero";
 
 const Contact:React.FC= () => {
     return (
-        <h1>Contact Page</h1>
+        <div className="mb-1">
+            <Hero />
+        </div>
     )
 }
 
