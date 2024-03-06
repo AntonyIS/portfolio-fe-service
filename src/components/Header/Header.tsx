@@ -9,7 +9,15 @@ const Header:React.FC =() => {
                     className="navbar-brand" 
                     to={`/`}
                     >
+                    <img
+                        src="https://avatars.githubusercontent.com/u/36263004?v=4"
+                        alt=""
+                        className="img-fluid rounded-circle m-1"
+                        style={{ maxWidth: "40px", height: "auto" }}
+                    />    
+                    <span className="m-1">
                         Antony Injila
+                    </span>
                 </Link>
                 <button 
                     className="navbar-toggler" 
@@ -38,8 +46,8 @@ const Header:React.FC =() => {
                         <li className="nav-item">
                             <Link 
                                 className="nav-link" 
-                                to={`/`}>
-                                    Portfolio
+                                to={`/projects`}>
+                                    Projects
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -52,7 +60,7 @@ const Header:React.FC =() => {
                         <li className="nav-item">
                             <Link 
                                 className="nav-link" 
-                                to={`/`}
+                                to={`https://www.linkedin.com/in/antony-injila-30a53410b/`}
                                 >
                                <i className="bi bi-linkedin"></i>
                             </Link>
@@ -60,7 +68,7 @@ const Header:React.FC =() => {
                         <li className="nav-item">
                             <Link 
                                 className="nav-link" 
-                                to={`/`}
+                                to={`https://github.com/AntonyIS`}
                                 >
                                 <i className="bi bi-github"></i>
                             </Link>
@@ -68,7 +76,7 @@ const Header:React.FC =() => {
                         <li className="nav-item">
                             <Link 
                                 className="nav-link" 
-                                to={`/`}
+                                to={`https://twitter.com/injila_antony`}
                                 >
                                 <i className="bi bi-twitter-x"></i>
                             </Link>

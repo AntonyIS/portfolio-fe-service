@@ -12,16 +12,16 @@ const Hero: React.FC = () => {
                         With a strong background in <strong>Python</strong>, <strong>Golang</strong>, <strong>TypeScript</strong>, <strong>ReactJS</strong>, <strong>AWS</strong>, <strong>Kubernetes</strong>, <strong>Apigee</strong>, and <strong>Docker</strong>,
                         I have experience in developing scalable applications. Additionally, I have expertise in CICD processes. I am currently working at Safaricom PLC as a Systems Integrations Engineer.
                     </p>
-                    <img 
-                        src="https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
+                    <img
+                        src="https://avatars.githubusercontent.com/u/36263004?v=4"
                         alt=""
-                        className="img-fluid" 
+                        className="img-fluid rounded-circle"
                         style={{ maxWidth: "400px", height: "auto" }}
                     />
                 </div>
 
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <div className="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <div className="card shadow-lg  mb-5 bg-body-tertiary rounded">
                             <div className="card-header">Goroutines</div>
                             <div className="card-body">
                                 <p className="card-text">

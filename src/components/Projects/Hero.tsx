@@ -11,7 +11,7 @@ type Project = {
     image: string;
 };
 
-const Projets: React.FC = () => {
+const Hero: React.FC = () => {
     const [projects, setProjects] = useState<Project[]>([]);
 
     useEffect(() => {
@@ -35,29 +35,31 @@ const Projets: React.FC = () => {
                 <div className="row mt-5">
                     {projects.map((project: Project) => (
                         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-2" key={project.id}>
-                            <div className="card d-flex flex-column justify-content-between shadow-lg mb-5 bg-body-tertiary rounded" style={{ height: "100%" }}>
-                                <div className="card-body">
-                                    <img
-                                        src={project.image}
-                                        className="card-img-top"
-                                        alt={project.name}
-                                        style={{ height: "200px" }}
-                                    />
-                                    <h3>{project.name}</h3>
-                                    <p className="card-text">{project.description}</p>
+                             <Link 
+                                className="nav-link" 
+                                to={`/projects`}
+                                style={{ height: "100%" }}
+                            >
+                                <div className="card d-flex flex-column shadow-lg mb-5 bg-body-tertiary rounded" style={{ height: "100%" }}>
+                                    <div className="card-body">
+                                        <img
+                                            src={project.image}
+                                            className="card-img-top"
+                                            alt={project.name}
+                                            style={{ height: "200px", objectFit: "cover" }}
+                                        />
+                                        <h3>{project.name}</h3>
+                                        <p className="card-text">{project.description}</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     ))}
                 </div>
-                <div className="text-center mt-5 fw-light">
-                    <Link to="/projects" className="btn btn-dark">
-                        Projects <i className="bi bi-arrow-right"></i>
-                    </Link>
-                </div>
+                
             </div>
         </section>
     );
 };
 
-export default Projets;
+export default Hero;

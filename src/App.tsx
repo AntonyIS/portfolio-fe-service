@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 const App:React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const App:React.FC = () => {
           <Route path='/' element={<Home />} />
           <Route path='/portfolio-fe-service' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/blog' element={<Blog/>} />
+          <Route path='/projects' element={<Projects/>} />
           <Route path='/contact' element={<Contact/>} />
         </Routes>
         <Footer />
