@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                         src="https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
                         alt=""
                         className="img-fluid" 
-                        style={{ maxWidth: "100%", height: "auto" }}
+                        style={{ maxWidth: "200px", height: "auto" }}
                     />
                 </div>
 
