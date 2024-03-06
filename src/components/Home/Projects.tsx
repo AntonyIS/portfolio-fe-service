@@ -21,8 +21,8 @@ const Projets: React.FC = () => {
     const fetchProjects = () => {
         const data = [
             { id: "1", userId: "1", name: "Setting up Go projects in Linux", image: "https://www.ntaskmanager.com/wp-content/uploads/2020/10/project-design-in-project-management.png.webp", description: "It looks like you're trying to define a function named projects" },
-            { id: "2", userId: "2", name: "Setting up Go projects in Linux", image: "https://retaintechnologies.com/wp-content/uploads/2020/04/Project-Management-Mantenimiento-1.jpg", description: "It looks like you're trying to define a function named projects" },
-            { id: "3", userId: "3", name: "Setting up Go projects in Linux", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYtgjPwqw8scZTUj_lxdn-SgyVZUPge479qztSmyTuCXJf3i2MuNyWvZDGPcGyeoLelo&usqp=CAU", description: "It looks like you're trying to define a function named projects" },
+            { id: "2", userId: "2", name: "Getting stated with Devops", image: "https://retaintechnologies.com/wp-content/uploads/2020/04/Project-Management-Mantenimiento-1.jpg", description: "It looks like you're trying to define a function named projects" },
+            { id: "3", userId: "3", name: "Deep dive into software engineering", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYtgjPwqw8scZTUj_lxdn-SgyVZUPge479qztSmyTuCXJf3i2MuNyWvZDGPcGyeoLelo&usqp=CAU", description: "It looks like you're trying to define a function named projects" },
         ];
         setProjects(data);
     };
@@ -41,6 +41,7 @@ const Projets: React.FC = () => {
                                     style={{ height: "200px" }}
                                 />
                                 <div className="card-body">
+                                    <h3>{project.name}</h3>
                                     <p className="card-text">{project.description}</p>
                                 </div>
                             </div>
