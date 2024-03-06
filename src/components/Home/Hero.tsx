@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero: React.FC = () => {
     return (
-        <section className="hero-section d-flex align-items-center bg-white" style={{ height: "75vh" }}>
-            <div className="container">
-                <div className="row">
+        <section className="hero-section d-flex align-items-center bg-white " style={{ height: "75vh" }}>
+            <div className="container mt-5">
+                <div className="row ">
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <h1 className="display-6 fw-bold">Antony Injila</h1>
                         <h3 className="fw-light">
@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                         </p>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <div className="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <div className="card shadow-lg mb-5 bg-body-tertiary rounded">
                             <div className="card-header">Goroutines</div>
                             <div className="card-body">
                                 <p className="card-text">
