@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Header:React.FC =() => {
     return (
-        <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary fw-bold" data-bs-theme="dark">
+        <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary fw-bold mb-5" data-bs-theme="dark">
             <div className="container">
                 <Link 
                     className="navbar-brand" 

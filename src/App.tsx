@@ -14,6 +14,7 @@ const App:React.FC = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/portfolio-fe-service' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/blog' element={<Blog/>} />
           <Route path='/contact' element={<Contact/>} />
